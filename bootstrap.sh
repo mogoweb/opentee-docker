@@ -19,7 +19,7 @@ apt-get install python -y
 apt-get install software-properties-common -y
 
 # Use PPA packages for QBS
-add-apt-repository ppa:alexey-ivanov/qbs-daily -y
+add-apt-repository ppa:qutim/qutim -y
 apt-get update -y
 apt-get install qbs -y
 
@@ -38,3 +38,5 @@ apt-get install libelf-dev -y
 # Install wget
 apt-get install wget -y
 
+# Install fuse
+apt-get install libfuse-dev -y
